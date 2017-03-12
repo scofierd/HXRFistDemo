@@ -17,8 +17,7 @@ s.platform     = :ios, "7.0"
 s.source       = { :git => "https://github.com/scofierd/HXRFistDemo.git", :tag => "0.0.1" }
 
 
-s.source_files  = "HXRFistDemo", "*.{h,m}"
-s.exclude_files = "Classes/Exclude"
+s.source_files  = "HXRFistDemo/HXRFistDemo", "*.{h,m}"
 s.requires_arc = true
 
 end
